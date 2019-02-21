@@ -1,6 +1,6 @@
 'use strict';
 
-var admin;
+/*var admin;
 var name;
 
 name = 'Вася';
@@ -33,4 +33,25 @@ if (value < 0) {
 }
 else {
   alert('this is 0');
+}*/
+
+var userLogin = prompt ('enter your login', 'Login');
+
+if (userLogin == 'admin') {
+  var userPassword = prompt ('enter your password', 'Password');
+  if (userPassword == 'black master') {
+    alert('Welcome!');
+  }
+  else if (userPassword == null) {
+    alert('entering canceled');
+  }
+  else {
+    alert('incorect password');
+  }
+}
+else if (userLogin == null) {
+  alert('entering canceled');
+}
+else {
+  alert('I do not know you');
 }
