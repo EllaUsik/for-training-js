@@ -35,10 +35,11 @@ else {
   alert('this is 0');
 }*/
 
-var userLogin = prompt ('enter your login', 'Login');
+/*var userLogin = prompt ('enter your login', 'Login');
 
 if (userLogin == 'admin') {
   var userPassword = prompt ('enter your password', 'Password');
+
   if (userPassword == 'black master') {
     alert('Welcome!');
   }
@@ -54,4 +55,10 @@ else if (userLogin == null) {
 }
 else {
   alert('I do not know you');
+}*/
+
+var userAge = prompt('enter your age', ' ');
+
+if ((userAge >= 14) && (userAge <= 90)) {
+  alert('hello!');
 }
