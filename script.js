@@ -116,10 +116,10 @@ while (enteringNumber < 100 && enteringNumber != null) {
 Создайте код, который выводит все простые числа из интервала от 2 до 10. Результат должен быть: 2,3,5,7.
 
 */
-nextNumber:
+/*nextNumber:
 for (var n = 2; n <= 10; n++) {
   for (var i = 2; i <= n-1; i++) {
     if (n%i == 0) continue nextNumber;
   }
   alert(n);
-}
+}*/
