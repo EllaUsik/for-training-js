@@ -63,33 +63,6 @@ if ((userAge >= 14) && (userAge <= 90)) {
   alert('hello!');
 }*/
 
-/*function sum(a, b) {
-  var c = +a + b;
-  return c;
-}
-
-alert(sum(2,3));*/
-
-/*var firstInputValue = document.getElementsByClassName('first') [0].value;
-var secondInputValue = document.getElementsByClassName('second') [0].value;
-var variable = firstInputValue;
-
-firstInputValue = secondInputValue;
-secondInputValue = variable;
-
-console.log(firstInputValue);
-console.log(secondInputValue);*/
-
-/*var firstInputValue = document.getElementsByClassName('first') [0].value;
-var secondInputValue = document.getElementsByClassName('second') [0].value;
-
-function valueChanging ( prevInputValue, newInputValue) {
-  document.getElementsByClassName(prevInputValue) [0].value = newInputValue;
-}
-
-valueChanging (firstInputValue, secondInputValue);
-valueChanging (secondInputValue, firstInputValue);*/
-
 /*for (var i = 0; i < 3; i++) {
   alert( "номер " + i + "!" );
 }
