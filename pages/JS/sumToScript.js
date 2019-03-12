@@ -3,7 +3,6 @@
 var sumButtonByFunctionElement = document.getElementById("button1");
 var sumButtonByRecursionElement = document.getElementById("button2");
 var sumButtonByFormulaElement = document.getElementById("button3");
-console.log(sumButtonByFunction);
 
 sumButtonByFunctionElement.addEventListener('click', countSumToByFunction);
 sumButtonByRecursionElement.addEventListener('click', countSumToByRecursion);
@@ -20,9 +19,9 @@ function countSumToByFunction() {
 
 function sumRecursive(n) {
   if (n > 0) {
-    return n + sumRecursive(n - 1);
+    return n + sumRecursive(n - 1); // 3 + 2 + 1 + 0
    }
-  var sumByRecursion = sumRecursive();
+  return n;
 }
 
 function countSumToByRecursion() {
@@ -30,7 +29,7 @@ function countSumToByRecursion() {
 
   alert(sumRecursive(n));
 }
-// TODO: doesn't show the result
+
 
 function countSumToByFormula() {
   var n = +prompt('enter N:', '');
